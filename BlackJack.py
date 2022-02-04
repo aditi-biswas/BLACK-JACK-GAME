@@ -150,7 +150,6 @@ while game_on==True:
     sump=initial_cards(player,sump)
     sumc=initial_cards(comp,sumc)
     print("Human Player's sum of values of cards ",sump)
-    print("Computer dealer's sum of values of cards ",sumc)
     first_display()
     while True:
         ch=choice()
